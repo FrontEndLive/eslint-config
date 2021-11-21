@@ -1,0 +1,54 @@
+{
+  "name": "@pixelperf/eslint-config",
+  "version": "1.0.0-alpha.0",
+  "description": "Common ESLint Configuration for projects at github.com/pixelperf",
+  "repository": {
+    "type": "git",
+    "url": "https:/github.com/pixelperf/eslint-config"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/eslint-parser": "7.16.3",
+    "@mdn/browser-compat-data": "4.0.11",
+    "@typescript-eslint/eslint-plugin": "5.4.0",
+    "@typescript-eslint/parser": "5.4.0",
+    "eslint-config-airbnb": "19.0.0",
+    "eslint-config-airbnb-typescript": "16.0.0",
+    "eslint-plugin-babel": "5.3.1",
+    "eslint-plugin-compat": "4.0.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-jest": "25.2.4",
+    "eslint-plugin-json-format": "2.0.1",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.1.1",
+    "eslint-plugin-react": "7.27.1",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "eslint-plugin-simple-import-sort": "7.0.0",
+    "eslint-plugin-tailwindcss": "1.17.2",
+    "eslint-plugin-unicorn": "39.0.0",
+    "prettier": "2.4.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.3.0",
+    "typescript": "4.5.2"
+  },
+  "peerDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "^8.3.0",
+    "typescript": "4.5.2"
+  },
+  "files": [
+    "index.js"
+  ],
+  "browserslist": [
+    "last 2 versions and > 0.2% and not dead"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
+}
