@@ -1,6 +1,6 @@
-# eslint-config-pixelperf
+# eslint-config-joyofrepo
 
-Personal ESLint Configuration for projects at github.com/pixelperf
+Personal ESLint Configuration for projects at github.com/joyofrepo
 
 ### Features
 

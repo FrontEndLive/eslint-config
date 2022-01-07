@@ -1,10 +1,10 @@
 {
-  "name": "@pixelperf/eslint-config",
+  "name": "@joyofrepo/eslint-config",
   "version": "1.0.0",
-  "description": "Common ESLint Configuration for projects at github.com/pixelperf",
+  "description": "Common ESLint Configuration for projects at github.com/joyofrepo",
   "repository": {
     "type": "git",
-    "url": "https:/github.com/pixelperf/eslint-config"
+    "url": "https:/github.com/joyofrepo/eslint-config"
   },
   "license": "MIT",
   "dependencies": {
