@@ -1,6 +1,6 @@
-# eslint-config-joyofrepo
+# eslint-config-frontendlive
 
-Personal ESLint Configuration for projects at github.com/joyofrepo
+Personal ESLint Configuration for projects at github.com/frontendlive
 
 ### Features
 

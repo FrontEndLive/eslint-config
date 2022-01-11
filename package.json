@@ -1,10 +1,10 @@
 {
-  "name": "@joyofrepo/eslint-config",
+  "name": "@frontendlive/eslint-config",
   "version": "1.0.0",
-  "description": "Common ESLint Configuration for projects at github.com/joyofrepo",
+  "description": "Common ESLint Configuration for projects at github.com/frontendlive",
   "repository": {
     "type": "git",
-    "url": "https:/github.com/joyofrepo/eslint-config"
+    "url": "https:/github.com/frontendlive/eslint-config"
   },
   "license": "MIT",
   "dependencies": {
