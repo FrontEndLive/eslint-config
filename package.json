@@ -1,6 +1,6 @@
 {
   "name": "@frontendlive/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Common ESLint Configuration for projects at github.com/frontendlive",
   "repository": {
     "type": "git",
@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "7.16.10",
+    "@babel/core": "7.16.12",
     "@babel/eslint-parser": "7.16.5",
     "@mdn/browser-compat-data": "4.1.4",
     "@typescript-eslint/eslint-plugin": "5.10.0",
@@ -26,7 +26,7 @@
     "eslint-plugin-react": "7.28.0",
     "eslint-plugin-react-hooks": "4.3.0",
     "eslint-plugin-simple-import-sort": "7.0.0",
-    "eslint-plugin-tailwindcss": "3.3.0",
+    "eslint-plugin-tailwindcss": "3.3.1",
     "eslint-plugin-unicorn": "40.1.0",
     "prettier": "2.5.1"
   },

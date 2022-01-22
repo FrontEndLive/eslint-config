@@ -70,6 +70,13 @@ module.exports = {
     "react/prop-types": "off",
     "react/require-default-props": "off",
     "react/jsx-props-no-spreading": [1, { custom: "ignore" }],
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
     "padded-blocks": "off",
     "import/order": [
       "warn",

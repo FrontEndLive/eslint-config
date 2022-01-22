@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@babel/core': 7.16.10
+  '@babel/core': 7.16.12
   '@babel/eslint-parser': 7.16.5
   '@mdn/browser-compat-data': 4.1.4
   '@typescript-eslint/eslint-plugin': 5.10.0
@@ -21,15 +21,15 @@ specifiers:
   eslint-plugin-react: 7.28.0
   eslint-plugin-react-hooks: 4.3.0
   eslint-plugin-simple-import-sort: 7.0.0
-  eslint-plugin-tailwindcss: 3.3.0
+  eslint-plugin-tailwindcss: 3.3.1
   eslint-plugin-unicorn: 40.1.0
   postcss: ^8.4.5
   prettier: 2.5.1
   typescript: 4.5.5
 
 dependencies:
-  '@babel/core': 7.16.10
-  '@babel/eslint-parser': 7.16.5_@babel+core@7.16.10+eslint@8.7.0
+  '@babel/core': 7.16.12
+  '@babel/eslint-parser': 7.16.5_@babel+core@7.16.12+eslint@8.7.0
   '@mdn/browser-compat-data': 4.1.4
   '@typescript-eslint/eslint-plugin': 5.10.0_706fb07ce74b1db611f19a02ad2ce784
   '@typescript-eslint/parser': 5.10.0_eslint@8.7.0+typescript@4.5.5
@@ -46,7 +46,7 @@ dependencies:
   eslint-plugin-react: 7.28.0_eslint@8.7.0
   eslint-plugin-react-hooks: 4.3.0_eslint@8.7.0
   eslint-plugin-simple-import-sort: 7.0.0_eslint@8.7.0
-  eslint-plugin-tailwindcss: 3.3.0_autoprefixer@10.4.2
+  eslint-plugin-tailwindcss: 3.3.1_autoprefixer@10.4.2
   eslint-plugin-unicorn: 40.1.0_eslint@8.7.0
   prettier: 2.5.1
 
@@ -70,16 +70,16 @@ packages:
     engines: {node: '>=6.9.0'}
     dev: false
 
-  /@babel/core/7.16.10:
-    resolution: {integrity: sha512-pbiIdZbCiMx/MM6toR+OfXarYix3uz0oVsnNtfdAGTcCTu3w/JGF8JhirevXLBJUu0WguSZI12qpKnx7EeMyLA==}
+  /@babel/core/7.16.12:
+    resolution: {integrity: sha512-dK5PtG1uiN2ikk++5OzSYsitZKny4wOCD0nrO4TqnW4BVBTQ2NGS3NgilvT/TEyxTST7LNyWV/T4tXDoD3fOgg==}
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.16.7
       '@babel/generator': 7.16.8
-      '@babel/helper-compilation-targets': 7.16.7_@babel+core@7.16.10
+      '@babel/helper-compilation-targets': 7.16.7_@babel+core@7.16.12
       '@babel/helper-module-transforms': 7.16.7
       '@babel/helpers': 7.16.7
-      '@babel/parser': 7.16.10
+      '@babel/parser': 7.16.12
       '@babel/template': 7.16.7
       '@babel/traverse': 7.16.10
       '@babel/types': 7.16.8
@@ -93,14 +93,14 @@ packages:
       - supports-color
     dev: false
 
-  /@babel/eslint-parser/7.16.5_@babel+core@7.16.10+eslint@8.7.0:
+  /@babel/eslint-parser/7.16.5_@babel+core@7.16.12+eslint@8.7.0:
     resolution: {integrity: sha512-mUqYa46lgWqHKQ33Q6LNCGp/wPR3eqOYTUixHFsfrSQqRxH0+WOzca75iEjFr5RDGH1dDz622LaHhLOzOuQRUA==}
     engines: {node: ^10.13.0 || ^12.13.0 || >=14.0.0}
     peerDependencies:
       '@babel/core': '>=7.11.0'
       eslint: ^7.5.0 || ^8.0.0
     dependencies:
-      '@babel/core': 7.16.10
+      '@babel/core': 7.16.12
       eslint: 8.7.0
       eslint-scope: 5.1.1
       eslint-visitor-keys: 2.1.0
@@ -116,14 +116,14 @@ packages:
       source-map: 0.5.7
     dev: false
 
-  /@babel/helper-compilation-targets/7.16.7_@babel+core@7.16.10:
+  /@babel/helper-compilation-targets/7.16.7_@babel+core@7.16.12:
     resolution: {integrity: sha512-mGojBwIWcwGD6rfqgRXVlVYmPAv7eOpIemUG3dGnDdCY4Pae70ROij3XmfrH6Fa1h1aiDylpglbZyktfzyo/hA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/compat-data': 7.16.4
-      '@babel/core': 7.16.10
+      '@babel/core': 7.16.12
       '@babel/helper-validator-option': 7.16.7
       browserslist: 4.19.1
       semver: 6.3.0
@@ -226,8 +226,8 @@ packages:
       js-tokens: 4.0.0
     dev: false
 
-  /@babel/parser/7.16.10:
-    resolution: {integrity: sha512-Sm/S9Or6nN8uiFsQU1yodyDW3MWXQhFeqzMPM+t8MJjM+pLsnFVxFZzkpXKvUXh+Gz9cbMoYYs484+Jw/NTEFQ==}
+  /@babel/parser/7.16.12:
+    resolution: {integrity: sha512-VfaV15po8RiZssrkPweyvbGVSe4x2y+aciFCgn0n0/SJMR22cwofRV1mtnJQYcSB1wUTaA/X1LnA3es66MCO5A==}
     engines: {node: '>=6.0.0'}
     hasBin: true
     dev: false
@@ -252,7 +252,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       '@babel/code-frame': 7.16.7
-      '@babel/parser': 7.16.10
+      '@babel/parser': 7.16.12
       '@babel/types': 7.16.8
     dev: false
 
@@ -266,7 +266,7 @@ packages:
       '@babel/helper-function-name': 7.16.7
       '@babel/helper-hoist-variables': 7.16.7
       '@babel/helper-split-export-declaration': 7.16.7
-      '@babel/parser': 7.16.10
+      '@babel/parser': 7.16.12
       '@babel/types': 7.16.8
       debug: 4.3.3
       globals: 11.12.0
@@ -1294,8 +1294,8 @@ packages:
       eslint: 8.7.0
     dev: false
 
-  /eslint-plugin-tailwindcss/3.3.0_autoprefixer@10.4.2:
-    resolution: {integrity: sha512-z8uA6H1Ys5SjKZCGB31MOmYELZnrrCJ1WpIGPG+ahMzbHq+ovxJyfNvYynSTYf1sJmiVZgFO/yejza52rqVLtw==}
+  /eslint-plugin-tailwindcss/3.3.1_autoprefixer@10.4.2:
+    resolution: {integrity: sha512-KR1nDDPmW/D35c0srL80ryAH8arbSv+AfaIVKiN4bAOKu3ZO3y2zrBe2gxDpKyOhHHdvEUqzgOrDVlJJBIkr8Q==}
     engines: {node: '>=12.13.0'}
     dependencies:
       fast-glob: 3.2.7
