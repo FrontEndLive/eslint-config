@@ -61,7 +61,7 @@ module.exports = {
     "import/no-extraneous-dependencies": [
       "error",
       {
-        devDependencies: [".storybook/**", "src/**/*.stories.*"],
+        devDependencies: [".storybook/**", "features/**/*.stories.*", "features/**/*.spec.*"],
       },
     ],
     // TODO: fix conflicts with aliasing in nextjs+typescript+babel+webpack
