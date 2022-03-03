@@ -18,7 +18,7 @@ module.exports = {
     "plugin:jest/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:promise/recommended",
-    "plugin:react/recommended",
+    "plugin:react",
     "plugin:tailwindcss/recommended",
     "plugin:unicorn/recommended",
   ],
