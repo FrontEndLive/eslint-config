@@ -76,6 +76,7 @@ module.exports = {
         "unnamedComponents": "arrow-function"
       }
     ],
+    "jest/no-mocks-import": "off",
     "padded-blocks": "off",
     "import/order": [
       "warn",
