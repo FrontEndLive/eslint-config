@@ -7,17 +7,13 @@ module.exports = {
   parser: "@typescript-eslint/parser",
 
   extends: [
-    "airbnb",
-    "airbnb/hooks",
-    "airbnb-typescript",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:compat/recommended",
-    "plugin:import/recommended",
-    "plugin:import/typescript",
     "plugin:jest/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:promise/recommended",
+    "plugin:react/recommended",
     "plugin:tailwindcss/recommended",
     "plugin:unicorn/recommended",
   ],
@@ -36,13 +32,6 @@ module.exports = {
     "tailwindcss",
   ],
 
-  settings: {
-    "import/ignore": [
-      // Some bad formatting in this module creates an ESLint error
-      "react-native",
-    ],
-  },
-
   rules: {
     "@typescript-eslint/indent": "off",
     "@typescript-eslint/member-delimiter-style": [
@@ -57,15 +46,6 @@ module.exports = {
     "object-curly-newline": ["error", { consistent: true }],
     "unicorn/filename-case": ["off"],
     "unicorn/prevent-abbreviations": ["off"],
-    "import/no-extraneous-dependencies": [
-      "error",
-      {
-        devDependencies: [".storybook/**", "features/**/*.stories.*", "features/**/*.spec.*"],
-      },
-    ],
-    // TODO: fix conflicts with aliasing in nextjs+typescript+babel+webpack
-    // until then, let typescript handle unresolved imports
-    "import/no-unresolved": "off",
     "react/prop-types": "off",
     "react/require-default-props": "off",
     "react/jsx-props-no-spreading": [1, { custom: "ignore" }],
