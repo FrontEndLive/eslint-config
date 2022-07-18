@@ -16,6 +16,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:tailwindcss/recommended",
     "plugin:unicorn/recommended",
+    "prettier",
   ],
 
   plugins: [
@@ -26,6 +27,7 @@ module.exports = {
     "jest",
     "json-format",
     "jsx-a11y",
+    "prettier",
     "promise",
     "simple-import-sort",
     "unicorn",
@@ -34,13 +36,6 @@ module.exports = {
 
   rules: {
     "@typescript-eslint/indent": "off",
-    "@typescript-eslint/member-delimiter-style": [
-      "error",
-      {
-        multiline: typescriptDelimiter,
-        singleline: typescriptDelimiter,
-      },
-    ],
     "arrow-body-style": ["error", "as-needed"],
     "comma-dangle": ["error", "only-multiline"],
     "object-curly-newline": ["error", { consistent: true }],
@@ -81,5 +76,6 @@ module.exports = {
         },
       },
     ],
+    "prettier/prettier": 2,
   },
 };

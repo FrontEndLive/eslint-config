@@ -1,6 +1,6 @@
 {
   "name": "@frontendlive/eslint-config",
-  "version": "1.0.8",
+  "version": "1.1.0-beta.1",
   "description": "Common ESLint Configuration for projects at github.com/frontendlive",
   "repository": {
     "type": "git",
@@ -8,35 +8,37 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.18.0",
-    "@babel/eslint-parser": "^7.17.0",
-    "@mdn/browser-compat-data": "^4.2.1",
-    "@typescript-eslint/eslint-plugin": "^5.26.0",
-    "@typescript-eslint/parser": "^5.26.0",
+    "@babel/core": "^7.18.9",
+    "@babel/eslint-parser": "^7.18.9",
+    "@mdn/browser-compat-data": "^5.1.4",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-compat": "^4.0.2",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.2.2",
+    "eslint-plugin-jest": "^26.6.0",
     "eslint-plugin-json-format": "^2.0.1",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
-    "eslint-plugin-react": "^7.30.0",
-    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-react": "^7.30.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
-    "eslint-plugin-tailwindcss": "^3.5.0",
-    "eslint-plugin-unicorn": "^42.0.0",
-    "prettier": "^2.6.2"
+    "eslint-plugin-tailwindcss": "^3.6.0",
+    "eslint-plugin-unicorn": "^43.0.2",
+    "prettier": "^2.7.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
-    "eslint": "^8.16.0",
+    "eslint": "^8.20.0",
     "postcss": "^8.4.14",
-    "typescript": "^4.6.4"
+    "typescript": "^4.7.4"
   },
   "peerDependencies": {
     "autoprefixer": "^10.4.7",
-    "eslint": "^8.16.0",
+    "eslint": "^8.20.0",
     "postcss": "^8.4.14",
     "typescript": "^4.5.5"
   },
