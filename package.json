@@ -1,6 +1,6 @@
 {
   "name": "@frontendlive/eslint-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Common ESLint Configuration for projects at github.com/frontendlive",
   "repository": {
     "type": "git",
@@ -17,7 +17,6 @@
     "eslint-plugin-babel": "^5.3.1",
     "eslint-plugin-compat": "^4.0.2",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-jest": "^26.6.0",
     "eslint-plugin-json-format": "^2.0.1",
     "eslint-plugin-jsx-a11y": "^6.6.0",
     "eslint-plugin-node": "^11.1.0",

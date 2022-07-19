@@ -10,7 +10,6 @@ module.exports = {
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:compat/recommended",
-    "plugin:jest/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:promise/recommended",
     "plugin:react/recommended",
@@ -24,7 +23,6 @@ module.exports = {
     "babel",
     "compat",
     "import",
-    "jest",
     "json-format",
     "jsx-a11y",
     "prettier",
@@ -51,7 +49,6 @@ module.exports = {
         "unnamedComponents": "arrow-function"
       }
     ],
-    "jest/no-mocks-import": "off",
     "padded-blocks": "off",
     "import/order": [
       "warn",
