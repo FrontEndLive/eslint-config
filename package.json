@@ -1,6 +1,6 @@
 {
   "name": "@frontendlive/eslint-config",
-  "version": "1.1.3",
+  "version": "1.1.5",
   "description": "Common ESLint Configuration for projects at github.com/frontendlive",
   "repository": {
     "type": "git",
@@ -8,36 +8,34 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@babel/core": "^7.19.0",
-    "@babel/eslint-parser": "^7.18.9",
-    "@mdn/browser-compat-data": "^5.2.1",
-    "@typescript-eslint/eslint-plugin": "^5.36.2",
-    "@typescript-eslint/parser": "^5.36.2",
-    "eslint-plugin-babel": "^5.3.1",
-    "eslint-plugin-compat": "^4.0.2",
-    "eslint-plugin-import": "^2.26.0",
+    "@babel/eslint-parser": "^7.21.3",
+    "@mdn/browser-compat-data": "^5.2.46",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "@typescript-eslint/parser": "^5.57.0",
+    "eslint-plugin-compat": "^4.1.2",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-json-format": "^2.0.1",
-    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.0.1",
-    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-simple-import-sort": "^8.0.0",
-    "eslint-plugin-tailwindcss": "^3.6.1",
-    "eslint-plugin-unicorn": "^43.0.2",
-    "prettier": "^2.7.1"
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "eslint-plugin-tailwindcss": "^3.10.1",
+    "eslint-plugin-unicorn": "^46.0.0",
+    "prettier": "^2.8.7"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.8",
-    "eslint": "^8.22.0",
-    "postcss": "^8.4.16",
-    "typescript": "^4.8.3"
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.37.0",
+    "postcss": "^8.4.21",
+    "typescript": "^5.0.2"
   },
   "peerDependencies": {
-    "autoprefixer": "^10.4.8",
-    "eslint": "^8.22.0",
-    "postcss": "^8.4.16",
-    "typescript": "^4.8.3"
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.23.1",
+    "postcss": "^8.4.21",
+    "typescript": "^5.0.2"
   },
   "files": [
     "index.js"

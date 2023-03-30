@@ -19,7 +19,6 @@ module.exports = {
 
   plugins: [
     "@typescript-eslint",
-    "babel",
     "compat",
     "import",
     "json-format",
@@ -29,7 +28,7 @@ module.exports = {
     "unicorn",
     "tailwindcss",
   ],
-  
+
   rules: {
     "@typescript-eslint/indent": "off",
     "arrow-body-style": ["error", "as-needed"],
