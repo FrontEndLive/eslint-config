@@ -12,7 +12,6 @@ module.exports = {
     "plugin:compat/recommended",
     "plugin:jsx-a11y/recommended",
     "plugin:promise/recommended",
-    "plugin:react/recommended",
     "plugin:tailwindcss/recommended",
     "plugin:unicorn/recommended",
   ],
@@ -33,20 +32,6 @@ module.exports = {
     "@typescript-eslint/indent": "off",
     "arrow-body-style": ["error", "as-needed"],
     "comma-dangle": ["error", "only-multiline"],
-    "object-curly-newline": ["error", { consistent: true }],
-    "unicorn/filename-case": ["off"],
-    "unicorn/prevent-abbreviations": ["off"],
-    "react/prop-types": "off",
-    "react/require-default-props": "off",
-    "react/jsx-props-no-spreading": [1, { custom: "ignore" }],
-    "react/function-component-definition": [
-      "error",
-      {
-        "namedComponents": "arrow-function",
-        "unnamedComponents": "arrow-function"
-      }
-    ],
-    "padded-blocks": "off",
     "import/order": [
       "warn",
       {
@@ -70,5 +55,10 @@ module.exports = {
         },
       },
     ],
+    "object-curly-newline": ["error", { consistent: true }],
+    "padded-blocks": "off",
+    "unicorn/filename-case": ["off"],
+    "unicorn/prefer-module": ["off"],
+    "unicorn/prevent-abbreviations": ["off"],
   },
 };

@@ -8,28 +8,26 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@babel/eslint-parser": "^7.21.3",
-    "@mdn/browser-compat-data": "^5.2.46",
-    "@typescript-eslint/eslint-plugin": "^5.57.0",
-    "@typescript-eslint/parser": "^5.57.0",
-    "eslint-plugin-compat": "^4.1.2",
-    "eslint-plugin-import": "^2.27.5",
+    "@babel/eslint-parser": "^7.23.10",
+    "@mdn/browser-compat-data": "^5.5.9",
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "eslint-plugin-compat": "^4.2.0",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-json-format": "^2.0.1",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
-    "eslint-plugin-tailwindcss": "^3.10.1",
-    "eslint-plugin-unicorn": "^46.0.0",
-    "prettier": "^2.8.7"
+    "eslint-plugin-tailwindcss": "^3.14.1",
+    "eslint-plugin-unicorn": "^50.0.1",
+    "prettier": "^3.2.5"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.14",
-    "eslint": "^8.37.0",
-    "postcss": "^8.4.21",
-    "typescript": "^5.0.2"
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "postcss": "^8.4.33",
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
     "autoprefixer": "^10.4.14",
